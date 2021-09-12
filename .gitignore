@@ -1,4 +1,11 @@
 # Byte-compiled / optimized / DLL files
+
+commit 0912 2:08A
+
+
+
+
+.DS_Store
 __pycache__/
 *.py[cod]
 *$py.class
