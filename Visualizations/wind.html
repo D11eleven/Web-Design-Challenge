@@ -3,6 +3,7 @@
 
 <head>
   <!-- Required meta tags -->
+  <title>wind</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,10 +20,10 @@
 
 
   <!-- Boostrap Stylesheet -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+  <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen"> -->
 
   <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <!-- <link rel="stylesheet" href="assets/css/styles.css" media="screen"> -->
 
   <title>Web Visualization Dashboard</title>
 </head>
@@ -30,7 +31,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-blue bg-light ml-auto">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Latitude</a>
+      <a class="navbar-brand" href="../index.html">Latitude</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,18 +51,18 @@
             </a>
 
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a></li>
-              <li><a class="dropdown-item" href="visualizations/humidity.html">Humidity</a></li>
-              <li><a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a></li>
-              <li><a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a></li>
+              <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="wind.html">Wind Speed</a></li>
             </ul>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="comparison.html">Comparison</a>
+            <a class="nav-link" href="../comparison.html">Comparison</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="data.html">Data</a>
+            <a class="nav-link" href="../data.html">Data</a>
           </li>
 
         </ul>
@@ -70,8 +71,51 @@
   </nav>
   <!-- END NAVBAR -->
   <!-- SUMMARY  -->
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-8">
+        <h2 class="title">Wind</h2>
+        <hr>
+        <img src="../resources/assets/images/Fig4.png" alt="Lat vs Wind" class="img-fluid">
+        <p>With our current analysis, there is no obvious relationship between latitude and wind speed, so further analysis is needed. It is easy to see that there may be some correlation; notice that a much larger number of cities in the northern hemisphere report over 20 mph of wind.</p>
+    </div>
+      <!-- VISUALIZATIONS -->
+
+            <!-- <div class="flex-child"> -->
 
 
-      
-  </body>
+            <!-- <div class="container"> -->
+
+            <!-- <div class="row" style = "padding: 20px;"> -->
+              <div class="col-sm-8 col-md-4 col-lg-4">
+                <!-- <div style ="background-color: rgb(130, 167, 247);"> -->
+
+                <h5 class="title">Visualizations</h5>
+
+                <hr>
+
+
+                <!-- <div class="row" style = "padding-left: 100px;">  -->
+                <!-- <div class="col-md-6" style = "padding-left: 100px;"> -->
+
+
+
+
+
+                <a href="../visualizations/temp.html"><img src=" ../resources/assets/images/Fig1.png" width="190">
+                </a>
+
+                <a href="../visualizations/humidity.html"><img src=" ../resources/assets/images/Fig2.png" width="190">
+                </a>
+
+                <a href="../visualizations/cloudiness.html"><img src=" ../resources/assets/images/Fig3.png" width="190">
+                </a>
+
+                <a href="../visualizations/wind.html"><img src=" ../resources/assets/images/Fig4.png" width="190">
+                </a>
+            </div>
+        </div>
+</body>
+
 </html>
+
+  

@@ -3,6 +3,7 @@
 
 <head>
   <!-- Required meta tags -->
+  <title>Comparison</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,10 +20,10 @@
 
 
   <!-- Boostrap Stylesheet -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+  <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen"> -->
 
   <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <!-- <link rel="stylesheet" href="assets/css/styles.css" media="screen"> -->
 
   <title>Web Visualization Dashboard</title>
 </head>
@@ -70,22 +71,41 @@
   </nav>
   <!-- END NAVBAR -->
   <!-- SUMMARY  -->
-
+  <div class="content">
+    <div class="col-sm-12 col-md-12">
+      <h2 class="title">Comparison: Latitude vs. X</h2>
+      <hr>
+      <p>Click plot for analysis.</p>
       <div class="container">
         <div class="row">
-          <div class="col">
-            Column
+          <div class="col-lg-6 col-sm-12">
+            <h3 class="title">vs. Max Temp</h3>
+            <a href="visualizations/temp.html">
+              <img src="resources/assets/images/Fig1.png" width="400" alt="Lat vs Temp">
+            </a>
           </div>
-          <div class="col">
-            Column
+          <div class="col-lg-6  col-sm-12">
+            <h3 class="text-center">vs. Humidity</h3>
+            <a href="visualizations/humidity.html">
+              <img src="resources/assets/images/Fig2.png" width="400" alt="Lat vs Humidity">
+            </a>
           </div>
-          <div class="col">
-            Column
+          <div class="col-lg-6 col-sm-12">
+            <h3 class="text-center">vs. Cloudiness</h3>
+            <a href="visualizations/cloudiness.html">
+              <img src="resources/assets/images/Fig3.png" width="400" alt="Lat vs Cloudiness">
+            </a>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h3 class="text-center">vs. Wind Speed</h3>
+            <a href="visualizations/wind.html">
+              <img src="resources/assets/images/Fig4.png" width="400" alt="Lat vs Humidity">
+            </a>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</body>
 
-
-      
-  </body>
 </html>
